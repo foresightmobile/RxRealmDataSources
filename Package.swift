@@ -9,6 +9,6 @@ let package = Package(
         .package(url: "https://github.com/realm/realm-cocoa", .branch("tg/spm"))
 	],
     targets: [
-        .target(name: "RxRealmDataSources", dependencies: ["RxRealm", "RxSwift", "RealmSwift"], path: ".", sources: ["RxRealmDataSources"])
+        .target(name: "RxRealmDataSources", dependencies: ["Pod", "RxSwift", "RealmSwift"], path: ".", sources: ["RxRealmDataSources"])
     ]
 )
