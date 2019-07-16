@@ -5,9 +5,9 @@ let package = Package(
 	name: "RxRealmDataSources",
 	dependencies: [
 		.package(url: "https://github.com/ReactiveX/RxSwift.git", .branch("master")),
-		.package(url: "https://github.com/RxSwiftCommunity/RxRealm.git", .branch("removed-realm")),
+		.package(url: "https://github.com/foresightmobile/RxRealm.git", .branch("removed-realm")),
 	],
     targets: [
-        .target(name: "Pod", dependencies: ["RxSwift", "RxRealm"], path: ".", sources: ["Pod"])
+        .target(name: "RxRealmDataSources", dependencies: ["RxSwift", "RxRealm"], path: ".", sources: ["RxRealmDataSources"])
     ]
 )

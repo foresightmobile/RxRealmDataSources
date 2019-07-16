@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-cocoa",
+        "state": {
+          "branch": "tg/spm",
+          "revision": "fc6ec59ad84045542f022bf5d8f38823f9b4318e",
+          "version": null
+        }
+      },
+      {
+        "package": "RealmCore",
+        "repositoryURL": "https://github.com/realm/realm-core",
+        "state": {
+          "branch": "master",
+          "revision": "51932a36200e3a51d07b5ebbaf0a61cb8aa6c371",
+          "version": null
+        }
+      },
+      {
+        "package": "RxRealm",
+        "repositoryURL": "https://github.com/foresightmobile/RxRealm.git",
+        "state": {
+          "branch": "removed-realm",
+          "revision": "ce0c012ce38880f6c927ccf56324f5bbc1e2ec66",
+          "version": null
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": "master",
+          "revision": "70b8a33c5c3f4c3b15ebf10b638d2b15cfafb814",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
