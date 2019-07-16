@@ -21,10 +21,10 @@
       },
       {
         "package": "RxRealm",
-        "repositoryURL": "https://github.com/foresightmobile/RxRealm",
+        "repositoryURL": "https://github.com/foresightmobile/RxRealm.git",
         "state": {
           "branch": "removed-realm",
-          "revision": "d409b24ba19114aeef801c22a23e418625f589cc",
+          "revision": "1e12fee5fcda3dfa528cdf0e53d4e9ced5abd38c",
           "version": null
         }
       },
