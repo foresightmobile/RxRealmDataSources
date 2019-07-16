@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "RxRealmDataSources", targets: ["RxRealmDataSources"])
     ],
 	dependencies: [
-		.package(url: "https://github.com/ReactiveX/RxSwift.git", .branch("master")),
+        .package(url: "https://github.com/foresightmobile/RxSwift", .branch("removing-uiwebkit")),
 		.package(url: "https://github.com/foresightmobile/RxRealm.git", .branch("removed-realm")),
         .package(url: "https://github.com/realm/realm-cocoa", .branch("tg/spm"))
 	],

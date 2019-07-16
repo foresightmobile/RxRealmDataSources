@@ -30,10 +30,10 @@
       },
       {
         "package": "RxSwift",
-        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "repositoryURL": "https://github.com/foresightmobile/RxSwift",
         "state": {
-          "branch": "master",
-          "revision": "70b8a33c5c3f4c3b15ebf10b638d2b15cfafb814",
+          "branch": "removing-uiwebkit",
+          "revision": "1f775ef59acf1a13acf68afbd0f32d8db416eaf6",
           "version": null
         }
       }
