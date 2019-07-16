@@ -104,7 +104,11 @@ extension Reactive where Base: NSCollectionView {
                 if ds.collectionView == nil {
                     ds.collectionView = self.base
                 }
-                ds.collectionView?.dataSource = ds
+                if #available(OSX 10.11, *) {
+                    ds.collectionView?.dataSource = ds
+                } else {
+                    // Fallback on earlier versions
+                }
                 ds.applyChanges(items: AnyRealmCollection<E>(results), changes: changes)
             }
     }
