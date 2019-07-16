@@ -8,6 +8,6 @@ let package = Package(
 		.package(url: "https://github.com/foresightmobile/RxRealm.git", .branch("removed-realm")),
 	],
     targets: [
-        .target(name: "RxRealmDataSources", dependencies: ["RxSwift", "RxRealm"], path: ".", sources: ["RxRealmDataSources"])
+        .target(name: "RxRealmDataSources", dependencies: ["Pod", "RxSwift"], path: ".", sources: ["RxRealmDataSources"])
     ]
 )
